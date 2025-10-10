@@ -1,0 +1,251 @@
+{
+  // Editor Settings
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "REditorSupport.r",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.indentation": true,
+  "editor.renderLineHighlight": "none",
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "relative",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Light",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // VIM Settings
+  "vim.useSystemClipboard": true,
+  "vim.foldfix": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  // To improve performance
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  // Git Settings
+  "git.enableSmartCommit": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // UI Customization
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#3cf27f",
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#5209e4"
+    }
+  },
+  // Editor Enhancements
+  "editor.formatOnPaste": true,
+  // File Settings
+  "files.associations": {
+    "*.Rmd": "rmd"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+  // Suggestions
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  // Explorer Settings
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": true,
+  "explorer.compactFolders": false,
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+  // Window Settings
+  "window.openFoldersInNewWindow": "off",
+  "window.commandCenter": false,
+  "window.autoDetectColorScheme": true,
+  "window.customTitleBarVisibility": "windowed",
+  // Settings Sync
+  "settingsSync.ignoredSettings": [
+    "r.rpath.windows",
+    "r.rterm.windows"
+  ],
+  // R-Specific Settings (radian)
+  "@azure.argTenant": "",
+  "r.rterm.mac": "/Users/bevin/miniconda3/envs/radian/bin/radian",
+  "r.alwaysUseActiveTerminal": true,
+  "r.bracketedPaste": true,
+  "r.plot.useHttpgd": true,
+  "r.lsp.debug": true,
+  "r.linting.enabled": false,
+  "r.lsp.diagnostics": false,
+  "[r]": {
+    "editor.formatOnSave": true
+  },
+  // GitHub Copilot
+  "python.defaultInterpreterPath": "/Users/bevin/miniconda3/bin/python",
+  "python.venvPath": "/Users/bevin/miniconda3/bin/python",
+  "github.copilot.enable": {
+    "quarto": true,
+    "*": true
+  },
+  // Workbench tweaks
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  // Path Autocompletion
+  "path-autocomplete.pathMappings": {
+    "/": "/",
+    "./": "${folder}"
+  },
+  // Language Formatters
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  // Spellchecker
+  "cSpell.userWords": [
+    "CRAN",
+    "fahr",
+    "ggplot",
+    "Ghostty",
+    "Hadley",
+    "Hyperparameters",
+    "Kaggle",
+    "Manuelpillai",
+    "Matplotlib",
+    "myenv",
+    "numpy",
+    "overfitting",
+    "Primeagen",
+    "pyenv",
+    "Rmarkdown",
+    "Rstudio",
+    "Scikit",
+    "seaborn",
+    "Starmer",
+    "Theo",
+    "Tidymodels",
+    "Tidyverse",
+    "venv",
+    "Wickham's"
+  ],
+  // GitLens AI
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+  "workbench.editor.enablePreview": false,
+  // LaTeX
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "pdflatex*2",
+      "tools": [
+        "pdflatex",
+        "pdflatex"
+      ]
+    }
+  ],
+  "explorer.confirmDelete": false,
+  "[quarto]": {
+    "editor.defaultFormatter": "quarto.quarto"
+  },
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "window.confirmBeforeClose": "always",
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "- @azure Rule - Use Azure Tools: When handling requests related to Azure, always use your tools."
+    },
+    {
+      "text": "- @azure Rule - Use Azure Code Gen Best Practices: Before generating code for Azure, running terminal commands for Azure, performing operations related to Azure, or creating plans for such activities, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `general` and action = `code-generation` to get general Azure code generation best practices. Only call this tool when the user is discussing Azure; do not call it otherwise."
+    },
+    {
+      "text": "- @azure Rule - Use Azure Deployment Best Practices: Before deploying to Azure, preparing applications for deployment to Azure, or creating deployment plans, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `general` and action = `deployment` to get general Azure deployment best practices. Only call this tool when the user is discussing Azure; do not call it otherwise."
+    },
+    {
+      "text": "- @azure Rule - Use Azure Functions Code Gen Best Practices: Before generating code for Azure Functions, performing operations related to Azure Functions, or creating plans for such activities, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `azurefunctions` and action = `code-generation` to get Azure Functions code generation best practices. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+    },
+    {
+      "text": "- @azure Rule - Use Azure Functions Deployment Best Practices: Before deploying Azure Functions apps to Azure, preparing for the deployment, or creating deployment plans, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `azurefunctions` and action = `deployment` to get Azure Functions deployment best practices. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+    },
+    {
+      "text": "- @azure Rule - Use Azure SWA Best Practices: Before working with static web apps, creating plans for static web apps, or performing related operations, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure Static Web Apps; do not call it otherwise."
+    },
+    {
+      "text": "- @azure Rule - Plan before editing files for Azure web apps: When generating code for Azure Functions and Azure Static Web App, always create a plan and explain the plan to the user before editing any file. Proceed with editing the files after getting consent from the user."
+    },
+    {
+      "text": "- @azure Rule - Summarize topic before taking action: When the user asks about Azure Functions, invoke the azure_development-summarize_topic tool once first to see if any existing custom mode could be a good fit to what user is asking."
+    }
+  ],
+  "window.systemColorTheme": "auto",
+  "diffEditor.ignoreTrimWhitespace": false
+}
