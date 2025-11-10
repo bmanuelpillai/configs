@@ -1,24 +1,7 @@
 [
-    // ======================== R-Specific Shortcuts ========================
-    // Insert an R code snippet using ```{r}...``` block
     {
-        "key": "shift+cmd+r",
-        "command": "editor.action.insertSnippet",
-        "args": {
-            "snippet": "```{r}\n$0\n```"
-        },
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "```{r}\n$0\n```"
-        }
-    },
-    // Pipe operator shortcut for R using native pipe `|>`
-    {
+        // R-specific shortcuts
+        // Insert the pipe operator |> in R files
         "key": "cmd+shift+m",
         "command": "type",
         "args": {
@@ -26,8 +9,8 @@
         },
         "when": "editorTextFocus"
     },
-    // Insert comment block for R, useful for section headings
     {
+        // Insert R code in quarto doc
         "key": "cmd+shift+r",
         "command": "editor.action.insertSnippet",
         "when": "editorLangId == r && editorTextFocus",
@@ -35,19 +18,18 @@
             "snippet": "# ${TM_SELECTED_TEXT}$0 ----"
         }
     },
-    // ======================== Terminal Management ========================
     // Open a new terminal window
     {
         "key": "cmd+shift+,",
         "command": "workbench.action.terminal.new"
     },
-    // Toggle terminal visibility
+    // Hide Terminal
     {
         "key": "cmd+shift+d",
         "command": "workbench.action.terminal.toggleTerminal"
     },
-    // ======================== Vim-Specific Shortcuts ========================
-    // ======================== Editor Navigation ========================
+    // Vim-Specific Shortcuts
+    // Editor Navigation
     // Move between editors using directional keys (left, right, up, down)
     {
         "key": "ctrl+shift+h",
@@ -74,7 +56,6 @@
         "key": "cmd+d",
         "command": "workbench.action.toggleSidebarVisibility"
     },
-    // Zoom in and out with keyboard shortcuts
     {
         "key": "ctrl+=",
         "command": "workbench.action.zoomIn"
@@ -83,7 +64,7 @@
         "key": "ctrl+-",
         "command": "workbench.action.zoomOut"
     },
-    // Collapse all folders in the Explorer panel
+    // Collapse folders
     {
         "key": "shift+cmd+=",
         "command": "workbench.files.action.collapseExplorerFolders"
@@ -96,7 +77,7 @@
         "when": "!activeEditorGroupEmpty"
     },
     {
-        "key": "cmd+[",
+            "key": "cmd+[",
         "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
         "when": "!activeEditorGroupEmpty"
     },
@@ -173,35 +154,8 @@
         "command": "-workbench.action.splitEditorRight"
     },
     {
-        "key": "cmd+k cmd+;",
-        "command": "workbench.action.splitEditorLeft"
-    },
-    {
-        "key": "cmd+k cmd+\\",
-        "command": "-workbench.action.splitEditorLeft"
-    },
-    {
         "key": "cmd+o",
         "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "cmd+o",
-        "command": "-workbench.action.files.openFileFolder",
-        "when": "isMacNative && openFolderWorkspaceSupport"
-    },
-    {
-        "key": "cmd+o",
-        "command": "-workbench.action.files.openFolderViaWorkspace",
-        "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
-    },
-    {
-        "key": "cmd+o",
-        "command": "-workbench.action.files.openFile",
-        "when": "false"
     },
     {
         "key": "ctrl+shift+n",
@@ -210,26 +164,6 @@
     {
         "key": "shift+cmd+n",
         "command": "-workbench.action.newWindow"
-    },
-    {
-        "key": "f",
-        "command": "-notebook.find",
-        "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused"
-    },
-    {
-        "key": "ctrl+cmd+f",
-        "command": "-workbench.action.toggleFullScreen",
-        "when": "!isIOS"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-cursorRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "-extension.vim_ctrl+f",
-        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+f",
