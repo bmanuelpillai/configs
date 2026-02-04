@@ -8,5 +8,3 @@ Personal config files for
 - [Zsh (Oh My Zsh)](https://ohmyz.sh/)
 	- Terminal setup with aesthetic options set up in [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 	- [Ghostty](https://ghostty.org/docs) is my current preferred terminal emulator
-    - [Zoxide](https://crates.io/crates/zoxide) A must download package that lets you quickly jump to frequently used directories
-
