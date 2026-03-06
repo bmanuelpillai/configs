@@ -80,8 +80,8 @@ exec-on-workspace-change = ['/bin/bash', '-c', 'sketchybar --trigger aerospace_w
 
 
     # Resize commands
-    cmd-shift-leftSquareBracket = 'resize smart +150'  # make left-most tile bigger
-    cmd-shift-rightSquareBracket = 'resize smart -150'  # make right-most tile bigger
+    cmd-shift-leftSquareBracket = 'resize smart +150'  # grow the focused tile
+    cmd-shift-rightSquareBracket = 'resize smart -150'  # shrink the focused tile
 
     # Workspace commands
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
@@ -127,7 +127,7 @@ exec-on-workspace-change = ['/bin/bash', '-c', 'sketchybar --trigger aerospace_w
 
 # Default space
 [[on-window-detected]]
-if.app-id ='com.arc.Browser'
+if.app-id = 'com.arc.Browser'
 run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
@@ -135,7 +135,7 @@ if.app-id = 'com.microsoft.VSCode'
 run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
-if.app-id ='md.obsidian'
+if.app-id = 'md.obsidian'
 run = ['move-node-to-workspace 2']
 
 [[on-window-detected]]
