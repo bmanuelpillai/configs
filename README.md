@@ -1,7 +1,7 @@
 Personal configuration files for the tools I use daily. These files are meant to be symlinked into your home directory so updates here flow directly to your machine.
 
 ## Layout
-- `aerospace/aerospace.TOML` — tiling window manager setup for macOS, with sensible gaps and workspace assignments.
+- `aerospace/aerospace.toml` — tiling window manager setup for macOS, with sensible gaps and workspace assignments.
 - `vscode/settings.json` & `vscode/keybindings.json` — minimal VS Code setup with vim-style navigation and R-friendly bindings.
 - `zsh/.zshrc` — Zsh + Oh My Zsh with Powerlevel10k, vi mode, zoxide, and a handful of aliases.
 - `obsidian/` — placeholder folders for plugins and themes to keep a consistent vault layout.
@@ -12,7 +12,7 @@ Clone the repo, then symlink the config you want:
 
 ```bash
 # Aerospace (macOS)
-ln -sf "$(pwd)/aerospace/aerospace.TOML" "$HOME/.config/aerospace/aerospace.toml"
+ln -sf "$(pwd)/aerospace/aerospace.toml" "$HOME/.config/aerospace/aerospace.toml"
 
 # VS Code
 ln -sf "$(pwd)/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
