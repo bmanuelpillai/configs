@@ -5,7 +5,6 @@ Personal configuration files for the tools I use daily. These files are meant to
 - `vscode/settings.json` & `vscode/keybindings.json` — minimal VS Code setup with vim-style navigation and R-friendly bindings.
 - `zsh/.zshrc` — Zsh + Oh My Zsh with Powerlevel10k, vi mode, zoxide, and a handful of aliases.
 - `obsidian/` — placeholder folders for plugins and themes to keep a consistent vault layout.
-- `.pre-commit-config.yaml` — gitleaks hook to prevent secrets from being committed.
 
 ## How to use
 Clone the repo, then symlink the config you want:
