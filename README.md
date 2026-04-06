@@ -6,21 +6,6 @@ Personal configuration files for the tools I use daily. These files are meant to
 - `zsh/.zshrc` — Zsh + Oh My Zsh with Powerlevel10k, vi mode, zoxide, and a handful of aliases.
 - `obsidian/` — placeholder folders for plugins and themes to keep a consistent vault layout.
 
-## How to use
-Clone the repo, then symlink the config you want:
-
-```bash
-# Aerospace (macOS)
-ln -sf "$(pwd)/aerospace/aerospace.toml" "$HOME/.config/aerospace/aerospace.toml"
-
-# VS Code
-ln -sf "$(pwd)/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-ln -sf "$(pwd)/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
-
-# Zsh
-ln -sf "$(pwd)/zsh/.zshrc" "$HOME/.zshrc"
-```
-
 Restart the relevant app (or reload the config) after linking.
 
 ## Notes on each tool
