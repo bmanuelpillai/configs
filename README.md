@@ -1,12 +1,10 @@
-Personal configuration files for the tools I use daily. These files are meant to be symlinked into your home directory so updates here flow directly to your machine.
+Personal configuration files for the tools I use daily:
 
 ## Layout
 - `aerospace/aerospace.toml` — tiling window manager setup for macOS, with sensible gaps and workspace assignments.
-- `vscode/settings.json` & `vscode/keybindings.json` — minimal VS Code setup with vim-style navigation and R-friendly bindings.
+- `vscode/settings.json` & `vscode/keybindings.json` — minimal VS Code setup with vim-style navigation and sp,e R-friendly bindings.
 - `zsh/.zshrc` — Zsh + Oh My Zsh with Powerlevel10k, vi mode, zoxide, and a handful of aliases.
 - `obsidian/` — placeholder folders for plugins and themes to keep a consistent vault layout.
-
-Restart the relevant app (or reload the config) after linking.
 
 ## Notes on each tool
 - **Aerospace**: Uses `alt`+number for workspaces and assigns common apps (Arc, VS Code, Obsidian, Slack/Zoom, Office, Calendar) to dedicated spaces. Gaps are tuned for a MacBook + external monitor. Normalization and mouse focus helpers are enabled.
