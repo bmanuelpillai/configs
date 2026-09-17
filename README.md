@@ -7,10 +7,10 @@ Personal configuration files for the tools I use daily (MacOS Specific):
 - `obsidian/` — placeholder folders for plugins and themes to keep a consistent vault layout.
 
 ## Notes on each tool
-- **Aerospace**: Uses `alt`+number for workspaces and assigns common apps (Arc, VS Code, Obsidian, Slack/Zoom, Office, Calendar) to dedicated spaces. Gaps are tuned for a MacBook + external monitor.
-- **VS Code**: Expects the MesloLGS NF font (for terminal) and Fira Code (editor). The Vim extension (see `vscode/settings.json`) is configured for shortcuts, and `vscode/keybindings.json` adds R-friendly snippets like pipe insertion. Activity bar moves to the top and the sidebar to the right to maximize vertical space.
-- **Zsh**: Requires Oh My Zsh, Powerlevel10k, `zsh-syntax-highlighting`, `zsh-autosuggestions`, and `zoxide`. vi-mode is on by default
-- **Obsidian**: Keep plugins in `obsidian/plugins` and themes in `obsidian/themes` to mirror your vault setup if you want to version them later.
-- **Ghostty**: My current terminal emulator of choice; settings live in the app, but fonts/themes in Zsh and VSCode complement it.
+- **[Aerospace](https://nikitabobko.github.io/AeroSpace/guide)**: Uses `alt`+number for workspaces and assigns common apps (Arc, VS Code, Obsidian, Slack/Zoom, Office, Calendar) to dedicated spaces. Gaps are tuned for a MacBook + external monitor.
+- **[VS Code](https://code.visualstudio.com/)**: Expects the MesloLGS NF font (for terminal) and Fira Code (editor). The Vim extension (see `vscode/settings.json`) is configured for shortcuts, and `vscode/keybindings.json` adds R-friendly snippets like pipe insertion. Activity bar moves to the top and the sidebar to the right to maximize vertical space.
+- **[Zsh](https://ohmyz.sh/)**: Requires Oh My Zsh, Powerlevel10k, `zsh-syntax-highlighting`, `zsh-autosuggestions`, and `zoxide`. vi-mode is on by default
+- **[Obsidian](https://obsidian.md/)**: Keep plugins in `obsidian/plugins` and themes in `obsidian/themes` to mirror your vault setup if you want to version them later.
+- **[Ghostty](https://ghostty.org/)**: My current terminal emulator of choice; settings live in the app, but fonts/themes in Zsh and VSCode complement it.
 
 Keep gitleaks handy (`pre-commit install`) to avoid committing secrets.
